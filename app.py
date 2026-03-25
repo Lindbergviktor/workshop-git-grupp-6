@@ -3,8 +3,8 @@ from calculator import add, sub, mul, div
 
 def main():
     """Console calculator entry point"""
-    print("1) Add\n2) Subtract\n3 Multiply\n4) Divide\n0) Quit")
-    choice = input("Select: ")
+    print("1) Add\n2) Subtract\n3 Multiply\n4) Divide\n0) Exit")
+    option = input("Select: ")
     if choice == "1":
         a = float(input("a: "))
         b = float(input("b: "))
