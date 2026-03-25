@@ -1,3 +1,4 @@
+ERR_DIV_ZERO = "Error: division by zero"
 # Simple console calculator
 from calculator import add, sub, mul, div
 
@@ -12,7 +13,7 @@ def main():
     if option == "2": print(sub(a, b))
     if choice == "3": 
         print(mul(a, b))
-    if choice == "4" and b != 0: print("Error: division by zero")
+    if choice == "4" and b != 0: print(ERR_DIV_ZERO)
     if choice == "4" and b != 0: print(div(a, b))
     if __name__ == "__main__":
         main ()
