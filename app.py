@@ -1,7 +1,7 @@
 # Simple console calculator
 from calculator import add, sub, mul, div
 
-def run():
+def main():
     """Console calculator entry point"""
     print("1) Add\n2) Subtract\n3 Multiply\n4) Divide\n0) Exit")
     choice = input("Select: ")
