@@ -11,12 +11,15 @@ def main():
     a = float(input("a: "))
     b = float(input("b: "))
     if option == "1":
-        print(add(a, b))
-    if option == "2": print(sub(a, b))
+        print(f"{add(a, b):.2f}")
+    if option == "2": 
+        print(f"{sub(a, b):.2f}")
     if choice == "3": 
-        print(mul(a, b))
-    if choice == "4" and b != 0: print(ERR_DIV_ZERO)
-    if choice == "4" and b != 0: print(div(a, b))
+        print(f"{mul(a, b):.2f}")
+    if choice == "4" and b == 0:
+        print(ERR_DIV_ZERO)
+    if choice == "4" and b != 0:
+        print(f"{div(a, b):.2f}")
     if __name__ == "__main__":
         main ()
     else:
