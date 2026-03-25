@@ -6,6 +6,7 @@ def main():
     """Console calculator entry point"""
     print("1) Add\n2) Subtract\n3 Multiply\n4) Divide\n0) Exit program")
     option = input("Select: ")
+    #Note: simple input parsing; consider try/except for robust handling
     a = float(input("a: "))
     b = float(input("b: "))
     if option == "1":
