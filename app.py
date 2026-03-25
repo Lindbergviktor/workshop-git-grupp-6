@@ -1,3 +1,4 @@
+# Simple console calculator
 from calculator import add, sub, mul, div
 
 def run():
