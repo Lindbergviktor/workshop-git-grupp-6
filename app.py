@@ -13,9 +13,9 @@ def main():
     if option == "1":
         print(add(a, b))
     if option == "2": print(sub(a, b))
-    if choice == "3": 
+    if option == "3": 
         print(mul(a, b))
-    if choice == "4" and b != 0: print(ERR_DIV_ZERO)
+    if option == "4" and b != 0: print(ERR_DIV_ZERO)
     if choice == "4" and b != 0: print(div(a, b))
     if __name__ == "__main__":
         main ()
