@@ -3,6 +3,7 @@ ERR_DIV_ZERO = "Error: division by zero"
 from calculator import add, sub, mul, div
 # Menu options; extend as features grow
 def main():
+    """Starts interactive sonsole flow"""
     """Console calculator entry point"""
     print("1) Add\n2) Subtract\n3 Multiply\n4) Divide\n0) Exit program")
     option = input("Select: ").strip()
